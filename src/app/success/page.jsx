@@ -1,11 +1,12 @@
 "use client"
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
+// import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 import Confetti from "react-confetti";
 
 const SuccessPage = ()=>{
 
-    const searchParams = useSearchParams();
+    // const searchParams = useSearchParams();
     const router = useRouter();
 
     const orderId = 254136987;
